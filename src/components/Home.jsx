@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import MyPhoto from "../assets/aman.jpg"; // replace with your photo path
+import MyPhoto from "../assets/aman2.jpeg"; // replace with your photo path
 
 const Home = () => {
   const [animate, setAnimate] = useState(false);
@@ -60,7 +60,7 @@ const Home = () => {
           </div>
         </div>
 
-        {/* Photo Section */}
+    
         <div
           className={`md:w-5/12 flex justify-center md:justify-end transition-all duration-1000 ease-out ${
             animate ? "opacity-100 translate-x-0" : "opacity-0 translate-x-10"

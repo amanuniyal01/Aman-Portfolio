@@ -7,11 +7,11 @@ const About = () => {
       id="about"
       className="relative min-h-screen flex items-center justify-center p-8 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden"
     >
-      {/* Decorative Background Elements */}
+      
       <div className="absolute -top-32 -left-32 w-72 h-72 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>
       <div className="absolute -bottom-32 -right-32 w-72 h-72 bg-purple-500 rounded-full opacity-20 animate-pulse"></div>
 
-      {/* Content */}
+      
       <motion.div
         className="relative max-w-4xl text-center md:text-left"
         initial={{ opacity: 0, y: 50 }}
@@ -25,9 +25,9 @@ const About = () => {
 
         <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
           Hi, I'm <span className="text-blue-400 font-semibold">Aman Uniyal</span>, a passionate web developer
-          specializing in <span className="text-purple-400 font-semibold">frontend</span> and <span className="text-blue-400 font-semibold">backend</span> development. 
+          specializing in <span className="text-purple-400 font-semibold">frontend</span>   development. 
           I build responsive, user-friendly, and visually appealing websites and applications using 
-          <span className="text-blue-300 font-semibold"> React</span>, <span className="text-green-400 font-semibold">Node.js</span>, 
+          <span className="text-blue-300 font-semibold"> React</span>, <span className="text-green-400 font-semibold">Javascript</span>, 
           and <span className="text-teal-400 font-semibold"> TailwindCSS</span>.
         </p>
 

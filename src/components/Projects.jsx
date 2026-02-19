@@ -2,25 +2,43 @@ import React from "react";
 import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
-// Import your project images
+
 import SwaadExpressImg from "../assets/swaadexpress.png";
 import LooksMaxImg from "../assets/looksmax.png";
 import CarouselImg from "../assets/carousel.png";
-
+import Diceimg from "../assets/Dice-img.png"
+import weather from "../assets/weather.png"
+import StreamGPT from "../assets/StreamGPT.png"
 const Projects = () => {
   const projects = [
+    {
+      name: "Stream-GPT",
+      description:
+        "StreamGPT is a responsive video streaming interface leveraging React and modern UI architecture.Includes intelligent content discovery, scalable component design, and seamless navigation.Focused on performance, reusability, and real-time interaction powered by AI-enhanced features.",
+      github: "https://github.com/amanuniyal01/Stream-GPT",
+      live: "https://stream-gpt23.vercel.app/",
+      image: StreamGPT,
+    },
     {
       name: "SwaadExpress",
       description:
         "A food delivery web app built with React and TailwindCSS for seamless ordering and tracking.",
       github: "https://github.com/amanuniyal01/Swaad-Express",
-      live: "https://quiet-figolla-9b53e0.netlify.app/",
+      live: "https://lambent-vacherin-c484ba.netlify.app/",
+      image: SwaadExpressImg,
+    },
+    {
+      name: "MyTube",
+      description:
+        "",
+      github: "",
+      live: "https://lambent-vacherin-c484ba.netlify.app/",
       image: SwaadExpressImg,
     },
     {
       name: "LooksMax",
       description:
-        "A social platform where users can share style tips and get fashion recommendations.",
+        "A E-Commerce Website where users can share style tips and get fashion recommendations.",
       github: "https://github.com/amanuniyal01/LooksMax",
       live: "https://lnkd.in/g2rZCxu3",
       image: LooksMaxImg,
@@ -33,11 +51,27 @@ const Projects = () => {
       live: "https://exquisite-choux-b2b94a.netlify.app/?",
       image: CarouselImg,
     },
+    {
+      name: "Dice-Game",
+      description:
+        "🎲 Dice Game — A fun and interactive web game built using React. The player rolls a virtual dice and tracks their score based on random outcomes. It features smooth UI transitions, dynamic state updates, and responsive design for an engaging experience.",
+      github: "https://github.com/amanuniyal01/dice-game",
+      live: "https://stirring-gumption-61d22c.netlify.app/",
+      image: Diceimg,
+    }, {
+      name: "Weather App",
+      description:
+        " A simple and beautiful React Weather Application that displays the current temperature, weather condition, and city information using the OpenWeather API",
+
+      github: "https://github.com/amanuniyal01/Weather-App",
+      live: "https://coruscating-meerkat-c9090c.netlify.app/",
+      image: weather,
+    }
   ];
 
   return (
     <section
-      id="projects" 
+      id="projects"
       className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 flex flex-col items-center justify-center p-8"
     >
       <h2 className="text-5xl font-bold text-white mb-12">Projects</h2>

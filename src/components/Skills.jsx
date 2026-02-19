@@ -16,7 +16,7 @@ const Skills = () => {
 
   return (
     <section
-      id="skills" // <-- For header routing
+      id="skills" 
       className="min-h-screen bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 flex flex-col items-center justify-center p-8"
     >
       <h2 className="text-5xl font-bold text-white mb-12">Skills</h2>
