@@ -3,7 +3,7 @@ import { FaGithub } from "react-icons/fa";
 import { motion } from "framer-motion";
 
 
-import SwaadExpressImg from "../assets/swaadexpress.png";
+import SwaadExpressImg from "../assets/SwaadExpress.png";
 import LooksMaxImg from "../assets/looksmax.png";
 import CarouselImg from "../assets/carousel.png";
 import Diceimg from "../assets/Dice-img.png"
