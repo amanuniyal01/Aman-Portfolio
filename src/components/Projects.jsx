@@ -9,12 +9,13 @@ import CarouselImg from "../assets/carousel.png";
 import Diceimg from "../assets/Dice-img.png"
 import weather from "../assets/weather.png"
 import StreamGPT from "../assets/StreamGPT.png"
+import MyTubeImg from "../assets/mytube.png"
 const Projects = () => {
   const projects = [
     {
-      name: "Stream-GPT",
+      name: "FilmAI",
       description:
-        "StreamGPT is a responsive video streaming interface leveraging React and modern UI architecture.Includes intelligent content discovery, scalable component design, and seamless navigation.Focused on performance, reusability, and real-time interaction powered by AI-enhanced features.",
+        "FilmAI is a responsive video streaming interface leveraging React and modern UI architecture.Includes intelligent content discovery, scalable component design, and seamless navigation.Focused on performance, reusability, and real-time interaction powered by AI-enhanced features.",
       github: "https://github.com/amanuniyal01/Stream-GPT",
       live: "https://stream-gpt23.vercel.app/",
       image: StreamGPT,
@@ -24,16 +25,16 @@ const Projects = () => {
       description:
         "A food delivery web app built with React and TailwindCSS for seamless ordering and tracking.",
       github: "https://github.com/amanuniyal01/Swaad-Express",
-      live: "https://lambent-vacherin-c484ba.netlify.app/",
+      live: "https://swaadexpress22.netlify.app/",
       image: SwaadExpressImg,
     },
     {
       name: "MyTube",
       description:
-        "",
-      github: "",
-      live: "https://lambent-vacherin-c484ba.netlify.app/",
-      image: SwaadExpressImg,
+        "myTube is a YouTube-inspired video streaming application User Interface built using React and Redux. It features dynamic video rendering via API integration, a responsive UI, and personalized sections like Liked Videos for an interactive user experience.",
+      github: "https://github.com/amanuniyal01/MyTube",
+      live: "https://my-tube25.vercel.app/",
+      image: MyTubeImg,
     },
     {
       name: "LooksMax",

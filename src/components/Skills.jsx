@@ -1,6 +1,17 @@
 import React from "react";
-import { FaReact, FaGithub, FaCss3Alt, FaHtml5, FaJsSquare } from "react-icons/fa";
-import { SiRedux, SiTailwindcss } from "react-icons/si";
+import { 
+  FaReact, 
+  FaGithub, 
+  FaCss3Alt, 
+  FaHtml5, 
+  FaJsSquare,
+  FaServer
+} from "react-icons/fa";
+import { 
+  SiRedux, 
+  SiTailwindcss,
+  SiFirebase
+} from "react-icons/si";
 import { motion } from "framer-motion";
 
 const Skills = () => {
@@ -12,6 +23,8 @@ const Skills = () => {
     { name: "CSS", icon: <FaCss3Alt size={50} color="#2965f1" /> },
     { name: "HTML", icon: <FaHtml5 size={50} color="#E34F26" /> },
     { name: "GitHub", icon: <FaGithub size={50} color="#FFFFFF" /> },
+    { name: "Firebase", icon: <SiFirebase size={50} color="#FFCA28" /> },
+    { name: "REST APIs", icon: <FaServer size={50} color="#4ADE80" /> },
   ];
 
   return (

@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
-import MyPhoto from "../assets/aman2.jpeg"; // replace with your photo path
+import MyPhoto from "../assets/aman2.jpeg"; 
 
 const Home = () => {
   const [animate, setAnimate] = useState(false);
@@ -31,7 +31,7 @@ const Home = () => {
           <div className="mt-8 flex justify-center md:justify-start items-center gap-4">
             {/* See My Resume */}
             <a
-              href="./AmanResume.pdf" 
+              href="./amanupdatedResume.pdf" 
               download
               className="px-6 py-3 bg-violet-900 hover:bg-violet-700 text-white font-semibold rounded-lg transition-colors"
             >
