@@ -17,7 +17,7 @@ const Projects = () => {
       description:
         "FilmAI is a responsive video streaming interface leveraging React and modern UI architecture.Includes intelligent content discovery, scalable component design, and seamless navigation.Focused on performance, reusability, and real-time interaction powered by AI-enhanced features.",
       github: "https://github.com/amanuniyal01/Stream-GPT",
-      live: "https://stream-gpt23.vercel.app/",
+      live: "https://filmai66.netlify.app/",
       image: StreamGPT,
     },
     {
