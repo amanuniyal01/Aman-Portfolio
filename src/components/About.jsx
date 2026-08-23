@@ -5,42 +5,47 @@ const About = () => {
   return (
     <section
       id="about"
-      className="relative min-h-screen flex items-center justify-center p-8 bg-gradient-to-r from-gray-900 via-gray-800 to-gray-900 text-white overflow-hidden"
+      className="portfolio-section relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-28 text-white sm:px-8"
     >
-      
-      <div className="absolute -top-32 -left-32 w-72 h-72 bg-blue-500 rounded-full opacity-20 animate-pulse"></div>
-      <div className="absolute -bottom-32 -right-32 w-72 h-72 bg-purple-500 rounded-full opacity-20 animate-pulse"></div>
 
-      
+      <div className="absolute -left-32 -top-32 h-72 w-72 rounded-full bg-cyan-500 opacity-10 blur-3xl animate-pulse"></div>
+      <div className="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-blue-500 opacity-10 blur-3xl animate-pulse"></div>
+
+
       <motion.div
-        className="relative max-w-4xl text-center md:text-left"
+        className="glass-panel relative max-w-4xl rounded-2xl p-8 text-center md:p-14 md:text-left"
         initial={{ opacity: 0, y: 50 }}
         whileInView={{ opacity: 1, y: 0 }}
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="text-5xl md:text-6xl font-bold mb-6 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
+        <h2 className="section-heading mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
           About Me
         </h2>
 
-        <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
-          Hi, I'm <span className="text-blue-400 font-semibold">Aman Uniyal</span>, a passionate web developer
-          specializing in <span className="text-purple-400 font-semibold">frontend</span>   development. 
-          I build responsive, user-friendly, and visually appealing websites and applications using 
-          <span className="text-blue-300 font-semibold"> React</span>, <span className="text-green-400 font-semibold">Javascript</span>, 
-          and <span className="text-teal-400 font-semibold"> TailwindCSS</span>.
+        <p className="text-base leading-8 text-slate-300 md:text-lg">
+          Hi, I'm <span className="text-blue-400 font-semibold">Aman Uniyal</span>, a passionate
+          software developer specializing in <span className="text-purple-400 font-semibold">frontend</span> and
+          cross-platform mobile development. I build responsive, user-friendly web and mobile
+          applications using <span className="text-blue-300 font-semibold">React</span>,{" "}
+          <span className="text-cyan-400 font-semibold">React Native</span>, and{" "}
+          <span className="text-blue-500 font-semibold">TypeScript</span>, styled with{" "}
+          <span className="text-teal-400 font-semibold">Tailwind CSS</span>. I also work across the
+          full stack, building <span className="text-green-400 font-semibold">REST APIs</span> with{" "}
+          <span className="text-indigo-400 font-semibold">ASP.NET</span> and managing data with{" "}
+          <span className="text-sky-400 font-semibold">PostgreSQL</span>.
         </p>
 
-        <div className="mt-8 flex justify-center md:justify-start gap-4">
+        <div className="mt-9 flex flex-wrap justify-center gap-4 md:justify-start">
           <a
             href="#projects"
-            className="px-6 py-3 bg-blue-500 hover:bg-blue-600 text-white font-semibold rounded-lg transition-colors"
+            className="rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all hover:-translate-y-1 hover:bg-blue-400"
           >
             View My Work
           </a>
           <a
             href="#contact"
-            className="px-6 py-3 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white font-semibold rounded-lg transition-colors"
+            className="rounded-lg border border-cyan-300/60 px-6 py-3 font-semibold text-cyan-300 transition-all hover:-translate-y-1 hover:bg-cyan-300 hover:text-slate-950"
           >
             Contact Me
           </a>

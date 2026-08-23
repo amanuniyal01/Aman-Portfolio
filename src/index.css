@@ -1,1 +1,98 @@
 @import "tailwindcss";
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+
+:root {
+    font-family: 'DM Sans', sans-serif;
+    color: #f8fafc;
+    background: #080d18;
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+}
+
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+body {
+    min-width: 320px;
+    margin: 0;
+    background: #080d18;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Space Grotesk', sans-serif;
+    letter-spacing: -0.02em;
+}
+
+::selection {
+    color: #08111f;
+    background: #67e8f9;
+}
+
+a,
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+textarea:focus-visible {
+    outline: 2px solid #67e8f9;
+    outline-offset: 4px;
+}
+
+.portfolio-section {
+    position: relative;
+    isolation: isolate;
+    overflow: hidden;
+    background-color: #080d18;
+    background-image:
+        linear-gradient(rgba(103, 232, 249, 0.035) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(103, 232, 249, 0.035) 1px, transparent 1px),
+        radial-gradient(circle at 50% 0%, rgba(30, 64, 175, 0.2), transparent 42%);
+    background-size: 48px 48px, 48px 48px, auto;
+}
+
+.portfolio-section::before {
+    position: absolute;
+    z-index: -1;
+    top: 8%;
+    right: -12rem;
+    width: 28rem;
+    height: 28rem;
+    border: 1px solid rgba(103, 232, 249, 0.12);
+    border-radius: 9999px;
+    content: '';
+    box-shadow: 0 0 80px rgba(14, 165, 233, 0.08);
+}
+
+.section-heading {
+    position: relative;
+    margin-bottom: 3.5rem;
+    color: #f8fafc;
+    font-size: clamp(2.5rem, 5vw, 4rem);
+    line-height: 1;
+}
+
+.section-heading::after {
+    display: block;
+    width: 4rem;
+    height: 0.25rem;
+    margin: 1.25rem auto 0;
+    border-radius: 9999px;
+    background: linear-gradient(90deg, #22d3ee, #60a5fa);
+    content: '';
+}
+
+.glass-panel {
+    border: 1px solid rgba(148, 163, 184, 0.14);
+    background: rgba(15, 23, 42, 0.72);
+    box-shadow: 0 24px 80px rgba(2, 6, 23, 0.3), inset 0 1px rgba(255, 255, 255, 0.04);
+    backdrop-filter: blur(16px);
+}
