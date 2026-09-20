@@ -90,8 +90,8 @@ const Projects = () => {
               alt={project.name}
               className="mb-5 h-48 w-full rounded-xl object-cover transition duration-500 group-hover:scale-[1.02]"
             />
-            <h3 className="mb-3 text-2xl font-bold text-[#201c1a]">{project.name}</h3>
-            <p className="mb-6 flex-1 text-sm leading-7 text-[#554d48]">{project.description}</p>
+            <h3 className="font-primary mb-3 text-2xl font-bold text-[#201c1a]">{project.name}</h3>
+            <p className="font-subsecondary mb-6 flex-1 text-sm leading-7 text-[#554d48]">{project.description}</p>
             <div className="flex items-center justify-between gap-3">
               <a
                 href={project.github}

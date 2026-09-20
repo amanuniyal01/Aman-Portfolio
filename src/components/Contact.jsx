@@ -19,7 +19,7 @@ const Contact = () => {
         initial={{ opacity: 0, y: -30 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8 }}
-        className="section-heading text-center"
+        className="section-heading font-primary text-center"
       >
         Contact Me
       </motion.h2>
@@ -62,7 +62,7 @@ const Contact = () => {
           transition={{ duration: 0.8, delay: 0.3 }}
           className="flex w-full flex-1 flex-col gap-6 text-[#2e2824] lg:pt-4"
         >
-          <h3 className="mb-4 text-3xl font-semibold">Get in touch</h3>
+          <h3 className="font-primary mb-4 text-3xl font-semibold">Get in touch</h3>
 
           <div className="flex items-center gap-4 group">
             <FaLinkedin

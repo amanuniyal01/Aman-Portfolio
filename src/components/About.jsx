@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="portfolio-section relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-28 text-white sm:px-8"
+      className="portfolio-section relative flex items-center justify-center overflow-hidden px-6 py-28 text-white sm:px-8"
     >
 
       <div className="absolute -left-32 -top-32 h-72 w-72 rounded-full bg-[#d7c3b1] opacity-20 blur-3xl animate-pulse"></div>
@@ -19,11 +19,11 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="section-heading mb-6 text-[#251f1c]">
+        <h2 className="section-heading font-primary mb-6 text-[#251f1c]">
           About Me
         </h2>
 
-        <p className="text-base leading-8 text-[#4f4742] md:text-lg">
+        <p className="font-subsecondary text-base leading-8 text-[#4f4742] md:text-lg">
           Hi, I'm <span className="font-semibold text-[#5d483a]">Aman Uniyal</span>, a passionate
           software developer specializing in <span className="font-semibold text-[#6f8197]">frontend</span> and
           cross-platform mobile development. I build responsive, user-friendly web and mobile

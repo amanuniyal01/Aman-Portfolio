@@ -1,11 +1,14 @@
 @import "tailwindcss";
 
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=DM+Sans:wght@400;500;600;700&family=Source+Serif+4:wght@400;500;600;700&display=swap');
 
 :root {
     font-family: 'DM Sans', sans-serif;
     color: #1f1b17;
     background: #f3eee7;
+    --font-primary: 'Manrope', 'Segoe UI', sans-serif;
+    --font-secondary: 'DM Sans', 'Segoe UI', sans-serif;
+    --font-subsecondary: 'Source Serif 4', Georgia, serif;
     --page-bg: #f3eee7;
     --page-bg-strong: #efe3d4;
     --panel: rgba(255, 255, 255, 0.7);
@@ -32,14 +35,37 @@ body {
     margin: 0;
     background: linear-gradient(180deg, #f3eee7 0%, #efe6dc 100%);
     color: var(--text);
+    font-family: var(--font-secondary);
+}
+
+.font-primary {
+    font-family: var(--font-primary);
+}
+
+.font-secondary {
+    font-family: var(--font-secondary);
+}
+
+.font-subsecondary {
+    font-family: var(--font-subsecondary);
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: 'Space Grotesk', sans-serif;
-    letter-spacing: -0.02em;
+    font-family: var(--font-primary);
+    letter-spacing: -0.03em;
+}
+
+p,
+a,
+button,
+input,
+textarea,
+span,
+li {
+    font-family: var(--font-secondary);
 }
 
 ::selection {

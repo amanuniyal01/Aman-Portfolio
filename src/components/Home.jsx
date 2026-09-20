@@ -18,11 +18,11 @@ const Home = () => {
           className={`mt-10 text-center transition-all duration-1000 ease-out md:mt-0 md:w-6/12 md:text-left ${animate ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
             }`}
         >
-          <h1 className="text-5xl font-bold text-[#201b1a] sm:text-6xl md:text-7xl">
+          <h1 className="font-primary text-5xl font-bold text-[#201b1a] sm:text-6xl md:text-7xl">
             Hello, I’m Aman Uniyal
           </h1>
 
-          <p className="mx-auto mt-7 max-w-xl text-base leading-8 text-[#4f4742] md:mx-0 md:text-lg">
+          <p className="font-subsecondary mx-auto mt-7 max-w-xl text-base leading-8 text-[#4f4742ab] md:mx-0 md:text-[23px]">
             I’m a passionate frontend developer specializing in React and React Native, with hands-on experience building REST APIs and working across the full stack. I build responsive, user-friendly, and visually appealing web and mobile applications.
           </p>
 
@@ -69,7 +69,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Aman Uniyal"
-            className="h-64 w-64 rounded-full border-8 border-[#d8c8b8] object-cover shadow-2xl shadow-[#d4c0ac]/35 ring-1 ring-[#a3b3be] md:h-80 md:w-80"
+            className="h-64 w-64 rounded-full border-2  border-[#6d5c52] object-cover shadow-2xl shadow-[#d4c0ac]/35 ring-1 ring-[#a3b3be] md:h-80 md:w-80"
           />
         </div>
       </div>

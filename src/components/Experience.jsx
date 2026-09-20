@@ -49,8 +49,8 @@ const Experience = () => {
                             <div className="glass-panel rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-[#a98e78] sm:p-8">
                                 <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-[#221d1b]">{experience.role}</h3>
-                                        <p className="mt-1 text-lg font-medium text-[#536e84]">{experience.company}</p>
+                                        <h3 className="font-primary text-2xl font-bold text-[#221d1b]">{experience.role}</h3>
+                                        <p className="font-secondary mt-1 text-lg font-medium text-[#536e84]">{experience.company}</p>
                                     </div>
                                     <div className="text-sm text-[#665d58] sm:text-right">
                                         <p>{experience.period}</p>
@@ -58,7 +58,7 @@ const Experience = () => {
                                     </div>
                                 </div>
 
-                                <ul className="space-y-3 text-[#4d4743]">
+                                <ul className="font-subsecondary space-y-3 text-[#4d4743]">
                                     {experience.points.map((point) => (
                                         <li key={point} className="flex gap-3">
                                             <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#7d8e6d]" />
