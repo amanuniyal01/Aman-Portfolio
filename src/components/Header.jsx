@@ -8,36 +8,36 @@ const Header = () => {
   };
 
   return (
-    <header className="fixed left-0 top-0 z-50 w-full border-b border-white/10 bg-gray-950/75 text-white shadow-2xl backdrop-blur-xl">
+    <header className="fixed left-0 top-0 z-50 w-full border-b border-[#d8c8b8] bg-[#f8f3ee]/80 text-[#2a241f] shadow-lg shadow-[#d9c9b6]/30 backdrop-blur-xl">
       <nav className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <a href="#home" className="font-['Space_Grotesk'] text-2xl font-bold tracking-wide text-cyan-300 transition-colors hover:text-cyan-200">
+        <a href="#home" className="font-['Space_Grotesk'] text-2xl font-bold tracking-wide text-[#4f5f73] transition-colors hover:text-[#3d4d5d]">
           Portfolio
         </a>
 
         {/* Desktop Menu */}
-        <ul className="hidden items-center gap-7 text-sm font-semibold tracking-wide text-slate-300 md:flex">
+        <ul className="hidden items-center gap-7 text-sm font-semibold tracking-wide text-[#4e433d] md:flex">
           <li>
-            <a href="#about" className="transition-colors hover:text-cyan-300">About</a>
+            <a href="#about" className="transition-colors hover:text-[#6f8197]">About</a>
           </li>
           <li>
-            <a href="#projects" className="transition-colors hover:text-cyan-300">Projects</a>
+            <a href="#projects" className="transition-colors hover:text-[#6f8197]">Projects</a>
           </li>
           <li>
-            <a href="#experience" className="transition-colors hover:text-cyan-300">Experience</a>
+            <a href="#experience" className="transition-colors hover:text-[#6f8197]">Experience</a>
           </li>
           <li>
-            <a href="#skills" className="transition-colors hover:text-cyan-300">Skills</a>
+            <a href="#skills" className="transition-colors hover:text-[#6f8197]">Skills</a>
           </li>
           <li>
-            <a href="#contact" className="rounded-full border border-cyan-300/40 px-4 py-2 text-cyan-200 transition-colors hover:border-cyan-200 hover:bg-cyan-300/10">Contact</a>
+            <a href="#contact" className="rounded-full border border-[#b99d82] px-4 py-2 text-[#4b3d33] transition-colors hover:border-[#8a7663] hover:bg-[#e7e1d8]">Contact</a>
           </li>
         </ul>
 
         {/* Hamburger Button */}
         <div className="flex items-center md:hidden">
-          <button onClick={toggleMenu} aria-label={isOpen ? "Close menu" : "Open menu"} className="rounded-lg p-1 text-slate-200 transition-colors hover:bg-white/10 focus:outline-none">
+          <button onClick={toggleMenu} aria-label={isOpen ? "Close menu" : "Open menu"} className="rounded-lg p-1 text-[#3a2d27] transition-colors hover:bg-[#efe5dc] focus:outline-none">
             <svg
-              className="h-8 w-8 text-white"
+              className="h-8 w-8 text-[#3a2d27]"
               fill="none"
               stroke="currentColor"
               viewBox="0 0 24 24"
@@ -65,21 +65,21 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isOpen && (
-        <ul className="absolute left-0 top-full w-full space-y-4 border-t border-white/10 bg-gray-950/95 px-6 py-5 text-lg backdrop-blur-xl md:hidden">
+        <ul className="absolute left-0 top-full w-full space-y-4 border-t border-[#d8c8b8] bg-[#f8f3ee]/95 px-6 py-5 text-lg text-[#3b3029] backdrop-blur-xl md:hidden">
           <li>
-            <a href="#about" className="transition-colors hover:text-cyan-300" onClick={() => setIsOpen(false)}>About</a>
+            <a href="#about" className="transition-colors hover:text-[#6f8197]" onClick={() => setIsOpen(false)}>About</a>
           </li>
           <li>
-            <a href="#projects" className="transition-colors hover:text-cyan-300" onClick={() => setIsOpen(false)}>Projects</a>
+            <a href="#projects" className="transition-colors hover:text-[#6f8197]" onClick={() => setIsOpen(false)}>Projects</a>
           </li>
           <li>
-            <a href="#experience" className="transition-colors hover:text-cyan-300" onClick={() => setIsOpen(false)}>Experience</a>
+            <a href="#experience" className="transition-colors hover:text-[#6f8197]" onClick={() => setIsOpen(false)}>Experience</a>
           </li>
           <li>
-            <a href="#skills" className="transition-colors hover:text-cyan-300" onClick={() => setIsOpen(false)}>Skills</a>
+            <a href="#skills" className="transition-colors hover:text-[#6f8197]" onClick={() => setIsOpen(false)}>Skills</a>
           </li>
           <li>
-            <a href="#contact" className="transition-colors hover:text-cyan-300" onClick={() => setIsOpen(false)}>Contact</a>
+            <a href="#contact" className="transition-colors hover:text-[#6f8197]" onClick={() => setIsOpen(false)}>Contact</a>
           </li>
         </ul>
       )}

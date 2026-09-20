@@ -18,11 +18,11 @@ const Home = () => {
           className={`mt-10 text-center transition-all duration-1000 ease-out md:mt-0 md:w-6/12 md:text-left ${animate ? "translate-x-0 opacity-100" : "-translate-x-10 opacity-0"
             }`}
         >
-          <h1 className="bg-gradient-to-r from-cyan-300 via-blue-400 to-violet-400 bg-clip-text text-5xl font-bold text-transparent sm:text-6xl md:text-7xl">
+          <h1 className="text-5xl font-bold text-[#201b1a] sm:text-6xl md:text-7xl">
             Hello, I’m Aman Uniyal
           </h1>
 
-          <p className="mx-auto mt-7 max-w-xl text-base leading-8 text-slate-300 md:mx-0 md:text-lg">
+          <p className="mx-auto mt-7 max-w-xl text-base leading-8 text-[#4f4742] md:mx-0 md:text-lg">
             I’m a passionate frontend developer specializing in React and React Native, with hands-on experience building REST APIs and working across the full stack. I build responsive, user-friendly, and visually appealing web and mobile applications.
           </p>
 
@@ -32,7 +32,7 @@ const Home = () => {
             <a
               href="/AmanUniyalAugustResume.pdf"
               download="AmanUniyalAugustResume.pdf"
-              className="rounded-lg bg-cyan-300 px-6 py-3 font-semibold text-slate-950 shadow-lg shadow-cyan-500/20 transition-all hover:-translate-y-1 hover:bg-cyan-200"
+              className="rounded-lg bg-[#5d483a] px-6 py-3 font-semibold text-[#fffaf5] shadow-lg shadow-[#bba088]/25 transition-all hover:-translate-y-1 hover:bg-[#4b392f]"
             >
               See My Resume
             </a>
@@ -43,7 +43,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub profile"
-              className="text-3xl text-slate-400 transition-all hover:-translate-y-1 hover:text-white"
+              className="text-3xl text-[#6d5c52] transition-all hover:-translate-y-1 hover:text-[#3b4d61]"
             >
               <FaGithub />
             </a>
@@ -54,7 +54,7 @@ const Home = () => {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn profile"
-              className="text-3xl text-slate-400 transition-all hover:-translate-y-1 hover:text-cyan-300"
+              className="text-3xl text-[#6d5c52] transition-all hover:-translate-y-1 hover:text-[#4f5f73]"
             >
               <FaLinkedin />
             </a>
@@ -69,7 +69,7 @@ const Home = () => {
           <img
             src={MyPhoto}
             alt="Aman Uniyal"
-            className="h-64 w-64 rounded-full border-8 border-white/10 object-cover shadow-2xl shadow-cyan-950/50 ring-1 ring-cyan-300/30 md:h-80 md:w-80"
+            className="h-64 w-64 rounded-full border-8 border-[#d8c8b8] object-cover shadow-2xl shadow-[#d4c0ac]/35 ring-1 ring-[#a3b3be] md:h-80 md:w-80"
           />
         </div>
       </div>

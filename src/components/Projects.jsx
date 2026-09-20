@@ -83,21 +83,21 @@ const Projects = () => {
             initial={{ opacity: 0, y: 50 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.6, delay: index * 0.2 }}
-            className="glass-panel group flex h-full flex-col rounded-2xl p-5 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-300/30 hover:shadow-cyan-950/50"
+            className="glass-panel group flex h-full flex-col rounded-2xl p-5 transition-all duration-300 hover:-translate-y-2 hover:border-[#a98e78] hover:shadow-[#d5c6b8]/40"
           >
             <img
               src={project.image}
               alt={project.name}
               className="mb-5 h-48 w-full rounded-xl object-cover transition duration-500 group-hover:scale-[1.02]"
             />
-            <h3 className="mb-3 text-2xl font-bold text-white">{project.name}</h3>
-            <p className="mb-6 flex-1 text-sm leading-7 text-slate-300">{project.description}</p>
+            <h3 className="mb-3 text-2xl font-bold text-[#201c1a]">{project.name}</h3>
+            <p className="mb-6 flex-1 text-sm leading-7 text-[#554d48]">{project.description}</p>
             <div className="flex items-center justify-between gap-3">
               <a
                 href={project.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center rounded-lg bg-violet-700 px-4 py-2 text-sm text-white transition-all hover:-translate-y-0.5 hover:bg-violet-600"
+                className="flex items-center rounded-lg bg-[#4b3a2f] px-4 py-2 text-sm text-[#fffaf5] transition-all hover:-translate-y-0.5 hover:bg-[#3d2f28]"
               >
                 <FaGithub className="mr-2" /> GitHub
               </a>
@@ -105,7 +105,7 @@ const Projects = () => {
                 href={project.live}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-lg bg-emerald-500 px-4 py-2 text-sm font-semibold text-slate-950 transition-all hover:-translate-y-0.5 hover:bg-emerald-400"
+                className="rounded-lg bg-[#bccad4] px-4 py-2 text-sm font-semibold text-[#1f2a35] transition-all hover:-translate-y-0.5 hover:bg-[#aab9c4]"
               >
                 Live Preview
               </a>

@@ -34,7 +34,7 @@ const Experience = () => {
                     Experience
                 </motion.h2>
 
-                <div className="relative ml-3 border-l-2 border-blue-400/50 sm:ml-5">
+                <div className="relative ml-3 border-l-2 border-[#b39c87]/70 sm:ml-5">
                     {experiences.map((experience, index) => (
                         <motion.article
                             key={`${experience.company}-${experience.role}`}
@@ -44,24 +44,24 @@ const Experience = () => {
                             transition={{ duration: 0.6, delay: index * 0.15 }}
                             className="relative pb-12 pl-8 last:pb-0 sm:pl-10"
                         >
-                            <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-gray-900 bg-blue-400" />
+                            <span className="absolute -left-[9px] top-1 h-4 w-4 rounded-full border-4 border-[#f3eee7] bg-[#6f8197]" />
 
-                            <div className="glass-panel rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-cyan-300/30 sm:p-8">
+                            <div className="glass-panel rounded-2xl p-6 transition-all hover:-translate-y-1 hover:border-[#a98e78] sm:p-8">
                                 <div className="mb-5 flex flex-col gap-2 sm:flex-row sm:items-start sm:justify-between sm:gap-6">
                                     <div>
-                                        <h3 className="text-2xl font-bold text-white">{experience.role}</h3>
-                                        <p className="mt-1 text-lg font-medium text-blue-300">{experience.company}</p>
+                                        <h3 className="text-2xl font-bold text-[#221d1b]">{experience.role}</h3>
+                                        <p className="mt-1 text-lg font-medium text-[#536e84]">{experience.company}</p>
                                     </div>
-                                    <div className="text-sm text-gray-400 sm:text-right">
+                                    <div className="text-sm text-[#665d58] sm:text-right">
                                         <p>{experience.period}</p>
                                         <p className="mt-1">{experience.location}</p>
                                     </div>
                                 </div>
 
-                                <ul className="space-y-3 text-gray-300">
+                                <ul className="space-y-3 text-[#4d4743]">
                                     {experience.points.map((point) => (
                                         <li key={point} className="flex gap-3">
-                                            <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-green-400" />
+                                            <span className="mt-2 h-2 w-2 shrink-0 rounded-full bg-[#7d8e6d]" />
                                             <span>{point}</span>
                                         </li>
                                     ))}

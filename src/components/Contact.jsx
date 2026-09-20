@@ -35,21 +35,21 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Name"
-            className="rounded-lg border border-white/10 bg-slate-900/70 p-4 text-white placeholder-gray-500 transition focus:border-cyan-300/60 focus:outline-none focus:ring-2 focus:ring-cyan-300/20"
+            className="rounded-lg border border-[#d8c8b8] bg-[#f7f1eb] p-4 text-[#1e1a18] placeholder-[#766a64] transition focus:border-[#758aa1] focus:outline-none focus:ring-2 focus:ring-[#dfe7ee]"
           />
           <input
             type="email"
             placeholder="Your Email"
-            className="rounded-lg border border-white/10 bg-slate-900/70 p-4 text-white placeholder-gray-500 transition focus:border-cyan-300/60 focus:outline-none focus:ring-2 focus:ring-cyan-300/20"
+            className="rounded-lg border border-[#d8c8b8] bg-[#f7f1eb] p-4 text-[#1e1a18] placeholder-[#766a64] transition focus:border-[#758aa1] focus:outline-none focus:ring-2 focus:ring-[#dfe7ee]"
           />
           <textarea
             placeholder="Your Message"
             rows="6"
-            className="rounded-lg border border-white/10 bg-slate-900/70 p-4 text-white placeholder-gray-500 transition focus:border-cyan-300/60 focus:outline-none focus:ring-2 focus:ring-cyan-300/20"
+            className="rounded-lg border border-[#d8c8b8] bg-[#f7f1eb] p-4 text-[#1e1a18] placeholder-[#766a64] transition focus:border-[#758aa1] focus:outline-none focus:ring-2 focus:ring-[#dfe7ee]"
           ></textarea>
           <button
             type="submit"
-            className="rounded-lg bg-cyan-300 px-6 py-3 font-bold text-slate-950 transition-all hover:-translate-y-1 hover:bg-cyan-200"
+            className="rounded-lg bg-[#5d483a] px-6 py-3 font-bold text-[#fffaf5] transition-all hover:-translate-y-1 hover:bg-[#4b392f]"
           >
             Send Message
           </button>
@@ -60,20 +60,20 @@ const Contact = () => {
           initial={{ opacity: 0, x: 50 }}
           animate={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.8, delay: 0.3 }}
-          className="flex w-full flex-1 flex-col gap-6 text-white lg:pt-4"
+          className="flex w-full flex-1 flex-col gap-6 text-[#2e2824] lg:pt-4"
         >
           <h3 className="mb-4 text-3xl font-semibold">Get in touch</h3>
 
           <div className="flex items-center gap-4 group">
             <FaLinkedin
               size={30}
-              className="transition-colors duration-300 group-hover:text-blue-500"
+              className="transition-colors duration-300 group-hover:text-[#4f5f73]"
             />
             <a
               href="https://www.linkedin.com/in/amanuniyal1012/"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors duration-300 group-hover:text-blue-500"
+              className="transition-colors duration-300 group-hover:text-[#4f5f73]"
             >
               linkedin.com/in/amanuniyal1012
             </a>
@@ -82,13 +82,13 @@ const Contact = () => {
           <div className="flex items-center gap-4 group">
             <FaGithub
               size={30}
-              className="transition-colors duration-300 group-hover:text-black"
+              className="transition-colors duration-300 group-hover:text-[#2d2d2d]"
             />
             <a
               href="https://github.com/amanuniyal01"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors duration-300 group-hover:text-black"
+              className="transition-colors duration-300 group-hover:text-[#2d2d2d]"
             >
               github.com/amanuniyal01
             </a>

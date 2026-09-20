@@ -68,10 +68,10 @@ const Skills = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.25 }}
             transition={{ duration: 0.5, delay: (index % 10) * 0.08 }}
-            className="glass-panel flex min-h-32 flex-col items-center justify-center rounded-2xl p-4 transition-all duration-300 hover:-translate-y-2 hover:border-cyan-300/30 hover:bg-slate-800/80"
+            className="glass-panel flex min-h-32 flex-col items-center justify-center rounded-2xl p-4 transition-all duration-300 hover:-translate-y-2 hover:border-[#a98e78] hover:bg-[#f3eee7]"
           >
             {skill.icon}
-            <p className="mt-2 text-white font-semibold text-center">{skill.name}</p>
+            <p className="mt-2 text-center font-semibold text-[#2b2421]">{skill.name}</p>
           </motion.div>
         ))}
       </div>

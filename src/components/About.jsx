@@ -8,8 +8,8 @@ const About = () => {
       className="portfolio-section relative flex min-h-screen items-center justify-center overflow-hidden px-6 py-28 text-white sm:px-8"
     >
 
-      <div className="absolute -left-32 -top-32 h-72 w-72 rounded-full bg-cyan-500 opacity-10 blur-3xl animate-pulse"></div>
-      <div className="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-blue-500 opacity-10 blur-3xl animate-pulse"></div>
+      <div className="absolute -left-32 -top-32 h-72 w-72 rounded-full bg-[#d7c3b1] opacity-20 blur-3xl animate-pulse"></div>
+      <div className="absolute -bottom-32 -right-32 h-72 w-72 rounded-full bg-[#b9c7d4] opacity-20 blur-3xl animate-pulse"></div>
 
 
       <motion.div
@@ -19,33 +19,33 @@ const About = () => {
         viewport={{ once: true }}
         transition={{ duration: 1 }}
       >
-        <h2 className="section-heading mb-6 text-transparent bg-clip-text bg-gradient-to-r from-cyan-300 to-blue-400">
+        <h2 className="section-heading mb-6 text-[#251f1c]">
           About Me
         </h2>
 
-        <p className="text-base leading-8 text-slate-300 md:text-lg">
-          Hi, I'm <span className="text-blue-400 font-semibold">Aman Uniyal</span>, a passionate
-          software developer specializing in <span className="text-purple-400 font-semibold">frontend</span> and
+        <p className="text-base leading-8 text-[#4f4742] md:text-lg">
+          Hi, I'm <span className="font-semibold text-[#5d483a]">Aman Uniyal</span>, a passionate
+          software developer specializing in <span className="font-semibold text-[#6f8197]">frontend</span> and
           cross-platform mobile development. I build responsive, user-friendly web and mobile
-          applications using <span className="text-blue-300 font-semibold">React</span>,{" "}
-          <span className="text-cyan-400 font-semibold">React Native</span>, and{" "}
-          <span className="text-blue-500 font-semibold">TypeScript</span>, styled with{" "}
-          <span className="text-teal-400 font-semibold">Tailwind CSS</span>. I also work across the
-          full stack, building <span className="text-green-400 font-semibold">REST APIs</span> with{" "}
-          <span className="text-indigo-400 font-semibold">ASP.NET</span> and managing data with{" "}
-          <span className="text-sky-400 font-semibold">PostgreSQL</span>.
+          applications using <span className="font-semibold text-[#3d5c76]">React</span>,{" "}
+          <span className="font-semibold text-[#6b7d8f]">React Native</span>, and{" "}
+          <span className="font-semibold text-[#4a5f73]">TypeScript</span>, styled with{" "}
+          <span className="font-semibold text-[#826a51]">Tailwind CSS</span>. I also work across the
+          full stack, building <span className="font-semibold text-[#6e7a4a]">REST APIs</span> with{" "}
+          <span className="font-semibold text-[#5f4337]">ASP.NET</span> and managing data with{" "}
+          <span className="font-semibold text-[#49657f]">PostgreSQL</span>.
         </p>
 
         <div className="mt-9 flex flex-wrap justify-center gap-4 md:justify-start">
           <a
             href="#projects"
-            className="rounded-lg bg-blue-500 px-6 py-3 font-semibold text-white shadow-lg shadow-blue-500/20 transition-all hover:-translate-y-1 hover:bg-blue-400"
+            className="rounded-lg bg-[#5d483a] px-6 py-3 font-semibold text-[#fffaf5] shadow-lg shadow-[#bca38e]/25 transition-all hover:-translate-y-1 hover:bg-[#4b392f]"
           >
             View My Work
           </a>
           <a
             href="#contact"
-            className="rounded-lg border border-cyan-300/60 px-6 py-3 font-semibold text-cyan-300 transition-all hover:-translate-y-1 hover:bg-cyan-300 hover:text-slate-950"
+            className="rounded-lg border border-[#a68a72] px-6 py-3 font-semibold text-[#4a3a30] transition-all hover:-translate-y-1 hover:bg-[#e8dacc]"
           >
             Contact Me
           </a>
